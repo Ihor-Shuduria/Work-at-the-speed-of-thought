@@ -16,21 +16,37 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html"
-        ><img src="./images/logo.svg" alt="logo" />Product</a
-      >
-      <nav>
-        <ul>
-          <li><a href="">Product</a></li>
-          <li><a href="">Pricing</a></li>
-          <li><a href="">Customers</a></li>
-          <li><a href="">Resources</a></li>
-        </ul>
-      </nav>
-      <button type="button">Sign In</button>
-      <button type="button">Sign Up</button>
-    </header>
+    <div>
+      <header class="product-header">
+        <a class="product-header-logo" href="./index.html"
+          ><img
+            class="product-header-img"
+            src="./images/logo.svg"
+            alt="logo"
+          />Product</a
+        >
+        <nav class="product-header-nav">
+          <ul class="product-list">
+            <li class="product-header-item">
+              <a class="product-header-link product" href="#">Product</a>
+            </li>
+            <li class="product-header-item">
+              <a class="product-header-link" href="#">Pricing</a>
+            </li>
+            <li class="product-header-item">
+              <a class="product-header-link" href="#">Customers</a>
+            </li>
+            <li class="product-header-item">
+              <a class="product-header-link" href="#">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="product-button">
+          <button class="product-header-button" type="button">Sign In</button>
+          <button class="product-header-button" type="button">Sign Up</button>
+        </div>
+      </header>
+    </div>
     <main>
       <!--#region Work at the speed of thought-->
       <section>
