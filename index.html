@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div>
-      <header class="product-header">
-        <a class="product-header-logo" href="./index.html"
+    <header class="product-header">
+      <div class="container header-container">
+        <a class="product-header-logo logo" href="./index.html"
           ><img
             class="product-header-img"
-            src="./images/logo.svg"
+            src="./images/logo.png"
             alt="logo"
           />Product</a
         >
@@ -41,23 +41,37 @@
             </li>
           </ul>
         </nav>
-        <div class="product-button">
-          <button class="product-header-button" type="button">Sign In</button>
-          <button class="product-header-button" type="button">Sign Up</button>
-        </div>
-      </header>
-    </div>
+        <button class="product-header-button" type="button">Sign In</button>
+        <button class="product-header-button" type="button">Sign Up</button>
+        <button class="burger-menu">
+          <svg class="burger-menu-icon" width="28" height="31">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
     <main>
       <!--#region Work at the speed of thought-->
-      <section>
-        <h1>Work at the speed of thought</h1>
-        <p>
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-        <button type="button">Get started</button>
-        <a href="">Watch the Video</a>
-        <img src="./images/hero-img.svg" alt="hero" width="610" height="555" />
+      <section class="work">
+        <div class="container work-container">
+          <svg class="icon-amico" width="338" height="310">
+            <use href="./images/icons.svg#icon-amico"></use>
+          </svg>
+          <h1 class="work-title">Work at the speed of thought</h1>
+          <p class="work-text">
+            Tools, tutorials, design and innovation experts, all in one place!
+            The most intuitive way to imagine your next user experience.
+          </p>
+          <div class="worc-link">
+            <button class="work-button" type="button">Get started</button>
+            <a class="work-watch" href="#">
+              <svg class="work-svg" width="20" height="18">
+                <use href="./images/icons.svg#icon-Triangle"></use>
+              </svg>
+              Watch the Video
+            </a>
+          </div>
+        </div>
       </section>
       <!--#endregion Work at the speed of thought-->
       <!--#region Product  was Built Specifically for You-->

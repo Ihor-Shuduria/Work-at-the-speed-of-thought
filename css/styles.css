@@ -43,39 +43,106 @@ img {
     /*header*/
 
 .product-header {
-    padding: 0 20px;
-    margin: 22px 146px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    margin: auto;
+    box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid #fff;   }
 
+.container {
+    max-width: 411px;
+    padding: 0 21px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .product-header-logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93;
+    color: #173a56;
+}
+
+.logo {
     display: flex;
     align-items: center;
-    font-weight: 700;
-        font-size: 30px;
-        line-height: 0.9;
-        color: #173a56;
+    padding: 24px 0;
+    gap: 8px;
 }
 
 .product-header-nav {
-    margin-left: 267px;
+    display: none;
 }
 
-.product-list {
-    display: flex;
-    gap: 30px;
+.product-header-button {
+    display: none;
 }
 
-.product-header-link {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.75;
+.burger-menu {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+/*region Work at the speed of thought*/
+
+.work-container {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.6;
+    text-align: center;
     color: #22343d;
+    padding-top: 10px;
 }
 
-.product {
+.work-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #22343d;
+    padding: 16px;
+}
+
+.worc-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.work-button {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background: #02897a;
+    border-radius: 4px;
+    width: 142px;
+    height: 53px;
+    padding: 15px 24px;
+    border: 0;
+    cursor: pointer;
+}
+
+.work-watch {
     font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
+    display: flex;
+    align-items: center;
+}
+
+.work-svg {
+    border-radius: 1px;
+    fill: #02897a;
 }
